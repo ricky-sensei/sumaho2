@@ -175,3 +175,57 @@ li {
   z-index: 10;
   cursor: pointer;
 }
+
+#top{
+  padding-top: 80px;
+  padding-bottom: 160px;
+}
+
+.product-list{
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 35px;
+}
+
+.product-list img {
+  margin-bottom: 10px;
+  vertical-align: top;
+}
+.product-list p{
+  font-size: 0.75rem;
+}
+
+.link-text{
+  display: block;
+  margin-top: 40px;
+  text-align: center;
+}
+
+
+/* index.html以外のページ用のcssをあとでここに書くよ！ */
+
+/* フッター書くよ！！ */
+#footer{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 20px;
+  left:0;
+  right:0;
+}
+
+#footer .menu{
+  display: flex;
+}
+#footer .menu li{
+  font-size: 0.75rem;
+  margin-right: 30px;
+}
+
+#footer .copyright{
+  font-size: 0.625rem;
+}
+
+
+
+
