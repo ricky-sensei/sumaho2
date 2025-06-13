@@ -259,3 +259,12 @@ text-align: justify;
   width: 50%;
 }
 
+/* about */
+
+#about{
+  max-width: 600px;
+}
+#about{
+  margin-bottom: 30px;
+  line-height: 1.9;
+}
